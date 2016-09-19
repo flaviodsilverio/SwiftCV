@@ -142,7 +142,7 @@
 				TargetAttributes = {
 					1B5B1EEC1D904FEC0048E767 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NXBHE32CVP;
+						DevelopmentTeam = 3S422NAT9T;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -309,7 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NXBHE32CVP;
+				DEVELOPMENT_TEAM = 3S422NAT9T;
 				INFOPLIST_FILE = SwiftCV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = silverio.almeida.apps.SwiftCV;
@@ -322,7 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NXBHE32CVP;
+				DEVELOPMENT_TEAM = 3S422NAT9T;
 				INFOPLIST_FILE = SwiftCV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = silverio.almeida.apps.SwiftCV;
@@ -350,6 +350,7 @@
 				1B5B1F041D904FEC0048E767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
