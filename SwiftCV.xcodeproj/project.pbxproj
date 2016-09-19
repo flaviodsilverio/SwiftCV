@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1B5B1EF11D904FEC0048E767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5B1EF01D904FEC0048E767 /* AppDelegate.swift */; };
-		1B5B1EF31D904FEC0048E767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5B1EF21D904FEC0048E767 /* ViewController.swift */; };
 		1B5B1EF61D904FEC0048E767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5B1EF41D904FEC0048E767 /* Main.storyboard */; };
 		1B5B1EF91D904FEC0048E767 /* SwiftCV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B5B1EF71D904FEC0048E767 /* SwiftCV.xcdatamodeld */; };
 		1B5B1EFB1D904FEC0048E767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5B1EFA1D904FEC0048E767 /* Assets.xcassets */; };
 		1B5B1EFE1D904FEC0048E767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5B1EFC1D904FEC0048E767 /* LaunchScreen.storyboard */; };
 		1B5B1F0B1D9062860048E767 /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5B1F0A1D9062860048E767 /* AddItemVC.swift */; };
+		A1B79EC21D90716400D37BEC /* PersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B79EC11D90716400D37BEC /* PersonalInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B5B1EED1D904FEC0048E767 /* SwiftCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5B1EF01D904FEC0048E767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B5B1EF21D904FEC0048E767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B5B1EF51D904FEC0048E767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B5B1EF81D904FEC0048E767 /* SwiftCV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftCV.xcdatamodel; sourceTree = "<group>"; };
 		1B5B1EFA1D904FEC0048E767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B5B1EFD1D904FEC0048E767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B5B1EFF1D904FEC0048E767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B5B1F0A1D9062860048E767 /* AddItemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
+		A1B79EC11D90716400D37BEC /* PersonalInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 		1B5B1F051D90622B0048E767 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A1B79EC01D90712000D37BEC /* PersonalInfoVC */,
 				1B5B1F091D9062620048E767 /* AddItemVC */,
-				1B5B1EF21D904FEC0048E767 /* ViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -108,6 +108,14 @@
 				1B5B1F0A1D9062860048E767 /* AddItemVC.swift */,
 			);
 			name = AddItemVC;
+			sourceTree = "<group>";
+		};
+		A1B79EC01D90712000D37BEC /* PersonalInfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				A1B79EC11D90716400D37BEC /* PersonalInfoVC.swift */,
+			);
+			name = PersonalInfoVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B5B1EF31D904FEC0048E767 /* ViewController.swift in Sources */,
+				A1B79EC21D90716400D37BEC /* PersonalInfoVC.swift in Sources */,
 				1B5B1EF91D904FEC0048E767 /* SwiftCV.xcdatamodeld in Sources */,
 				1B5B1EF11D904FEC0048E767 /* AppDelegate.swift in Sources */,
 				1B5B1F0B1D9062860048E767 /* AddItemVC.swift in Sources */,
